@@ -16,7 +16,7 @@ public:
 int main()
 {
     int i = 0;
-    int b;
+  
  
     std::cout << "/* message */" << std::endl;
     std::cout << "Xin chao" << std::endl;
