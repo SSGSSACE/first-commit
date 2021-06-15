@@ -12,13 +12,12 @@ private:
     string gender;
 
 public:
-
-
 };
 int main()
 {
-    int i=0;
-   
+    int i = 0;
+    int b;
+    int c;
     std::cout << "Xin chao" << std::endl;
     return 0;
 }
