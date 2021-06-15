@@ -4,7 +4,7 @@ using namespace std;
 class Person
 {
 private:
-    static int ID;
+
     int age;
     int pID;
     string name;
@@ -13,5 +13,6 @@ private:
     string gender;
 
 public:
+    static int ID;
     Person();
 };
