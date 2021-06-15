@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 using namespace std;
 class Person
 {
@@ -16,7 +17,7 @@ public:
 int main()
 {
     int i = 0;
-  
+    
  
     std::cout << "/* message */" << std::endl;
     std::cout << "Xin chao" << std::endl;
