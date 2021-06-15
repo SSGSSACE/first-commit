@@ -13,9 +13,10 @@ private:
 
 public:
 
+
 };
 int main()
 {
-    
+    std::cout << "Xin chao" << std::endl;
     return 0;
 }
