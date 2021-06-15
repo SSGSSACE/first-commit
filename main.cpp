@@ -1,19 +1,17 @@
 #include <iostream>
 #include <string>
-using namespace std;
-class Person
-{
-private:
-    static int ID;
-    int age;
-    int pID;
-    string name;
-    string address;
-    string phone;
-    string gender;
+#include "Person.h"
 
-public:
-};
+Person::Person(){
+    this->age=0;
+    this->pID=0;
+    this->name= "";
+    this->address= "";
+    this->phone= "";
+    this->gender= "";
+}
+int Person::ID=100;
+
 int main()
 {
 
