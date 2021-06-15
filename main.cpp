@@ -17,6 +17,8 @@ public:
 };
 int main()
 {
+    int i=0;
+   
     std::cout << "Xin chao" << std::endl;
     return 0;
 }
